@@ -2,7 +2,7 @@
 
 Examples of performing specific actions in AWS across various languages via AWS official SDK's.
 
-**Languages:**
+## Languages
 
 * Golang
 * Node
@@ -15,7 +15,7 @@ This is a collection of examples. We try to make them usable by having ways for 
 
 ## PR's Welcome
 
-PR's are welcome to fix any issues, or add any examples. PR's should consist of:
+Pull Requests are welcome to fix/improve any exanmple, or to add additional examples. PR's should consist of:
 
 1. **Working** code that attempts to copy the style of other examples
 2. Explanation where needed (usually via code comments)
