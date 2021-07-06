@@ -1,0 +1,15 @@
+{
+  "name": "aws-sdk-examples-node-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CloudCasts",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.20.0"
+  }
+}

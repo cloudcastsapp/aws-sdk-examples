@@ -1,0 +1,15 @@
+{
+    "name": "cloudcasts/aws-sdk-examples-php",
+    "description": "Example AWS PHP SDK usage",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "^3.185"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Fidao",
+            "email": "chris@cloudcasts.io"
+        }
+    ]
+}
