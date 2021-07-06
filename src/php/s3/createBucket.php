@@ -7,6 +7,7 @@ use Aws\S3\S3Client;
 $s3 = new S3Client([
     'region' => 'us-east-2',
     'version' => 'latest',
+    // 'profile' => 'your-profile',
 ]);
 
 $bucket = 'bucket-o-fun';

@@ -7,7 +7,7 @@ bucket_name = 'bucket-o-fun'
 # Create S3 client defining some options
 # See https://boto3.amazonaws.com/v1/documentation/api/latest/reference/core/session.html
 # See https://stackoverflow.com/questions/33378422/how-to-choose-an-aws-profile-when-using-boto3-to-connect-to-cloudfront
-ses = boto3.session.Session(region_name='us-east-2', profile_name='cloudcasts')
+ses = boto3.session.Session(region_name='us-east-2') # profile_name='your-profile'
 client = ses.resource('s3')
 
 # See https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-example-creating-buckets.html

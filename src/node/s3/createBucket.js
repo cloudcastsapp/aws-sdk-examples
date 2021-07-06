@@ -3,7 +3,7 @@ import { S3Client, CreateBucketCommand, waitUntilBucketExists } from "@aws-sdk/c
 const s3Client = new S3Client({
     region: 'us-east-2',
     version: 'latest',
-    profile: 'cloudcasts',
+    // profile: 'your-profile',
 });
 
 // Search for CreateBucketCommandInput to see input

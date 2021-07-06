@@ -13,7 +13,7 @@ var bucket = "bucket-o-fun"
 
 func main() {
 	// Load the Shared AWS Configuration (~/.aws/config)
-	cfg, err := config.LoadDefaultConfig(context.TODO())
+	cfg, err := config.LoadDefaultConfig(context.TODO() /*, config.WithSharedConfigProfile("my-profile")*/)
 
 	if err != nil {
 		log.Fatal(err)
