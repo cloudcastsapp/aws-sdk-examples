@@ -1,6 +1,6 @@
-<p style="text-align:center;">
+<p align="center">
     <a href="https://cloudcasts.io" target="_blank">
-      <img alt="CloudCasts" width="50" src="https://cloudcasts.io/logo.svg">
+      <img alt="CloudCasts" src="https://user-images.githubusercontent.com/467411/124533079-534a0880-ddd7-11eb-89a2-b8a82dbe4941.png" style="max-width: 100%;" width="500">
     </a><br>
     <strong>AWS Web Services for Humans</strong>
 </p>
