@@ -10,6 +10,7 @@
   "author": "CloudCasts",
   "license": "MIT",
   "dependencies": {
+    "@aws-sdk/client-ec2": "^3.23.0",
     "@aws-sdk/client-s3": "^3.20.0"
   }
 }

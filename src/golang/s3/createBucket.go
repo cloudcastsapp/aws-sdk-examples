@@ -13,7 +13,7 @@ var bucket = "bucket-o-fun"
 
 func main() {
 	// Load the Shared AWS Configuration (~/.aws/config)
-	cfg, err := config.LoadDefaultConfig(context.TODO() /*, config.WithSharedConfigProfile("my-profile")*/)
+	cfg, err := config.LoadDefaultConfig(context.TODO() /*, config.WithSharedConfigProfile("my-profile"), config.WithRegion("us-east-2")*/)
 
 	if err != nil {
 		log.Fatal(err)
@@ -38,4 +38,8 @@ func main() {
 	err = waiter.Wait(context.TODO(), &s3.HeadBucketInput{
 		Bucket: aws.String(bucket),
 	}, maxWaitTime)
+
+	if err != nil {
+		log.Fatal(err)
+	}
 }
