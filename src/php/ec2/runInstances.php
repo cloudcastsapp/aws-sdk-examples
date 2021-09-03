@@ -10,7 +10,7 @@ $ec2 = new Ec2Client([
     // 'profile' => 'your-profile',
 ]);
 
-// $result: ['Location' => 'us-east-2']
+// $result: ['Instances' => [...]]
 $result = $ec2->runInstances([
     // ImageId: https://cloud-images.ubuntu.com/locator/ec2/
     'ImageId' => 'ami-0b29b6e62f2343b46',
